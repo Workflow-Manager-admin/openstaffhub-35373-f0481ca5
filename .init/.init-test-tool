@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/openstaffhub-35373-f0481ca5/ems_backend"
+}
