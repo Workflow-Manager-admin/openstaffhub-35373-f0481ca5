@@ -34,9 +34,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.on_event("startup")
-
-
 def on_startup():
     # Create all tables (safe to run even if tables already exist)
     Base.metadata.create_all(bind=engine)
